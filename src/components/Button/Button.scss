@@ -1,17 +1,11 @@
 @import '../../styles/variables';
 
 .ant-btn {
-    height: auto;
-    width: fit-content;
-    line-height: 150%;
-    padding: 16px 32px;
-    font-weight: 700;
+   
 
     &-text {
-        background-color: $white;
 
         &:hover, &:active{
-            background-color: #ffffffd8 !important;
         }
     }
 }

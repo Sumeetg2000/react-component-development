@@ -1,23 +1,20 @@
-const theme = {
-  token: {
-    colorLink: "#757B8A",
-    colorPrimary: "#EB6E46",
-    colorBorderSecondary: "#D6D6D6",
-  },
-  components: {
-    Radio: {
-      colorPrimary: "#00b69b",
-    },
-    Button: {
-      borderRadius: "100px",
-      fontSize: 16,
-      colorText: "#EB6E46",
-    },
-    Avatar: {
-      groupOverlapping: -24,
-      borderRadius: 101,
-    },
-  },
-};
+ const theme = {
+   token: {
+     colorLink: "#fff",
+     colorPrimary: "#1B1AFF",
+     colorBorderSecondary: "#fff",
+   },
+   components: {
+     Button: {
+       borderRadius: "8px",
+       fontSize: 16,
+       colorText: "#101010",
+     },
+     Avatar: {
+       groupOverlapping: -24,
+       borderRadius: 101,
+     },
+   },
+ };
 
-export default theme;
+export default theme

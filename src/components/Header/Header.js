@@ -1,4 +1,4 @@
-import HeaderMenu from "../HeaderMenu/HeaderMenu";
+import HeaderMenu from "../seoAgency/HeaderMenu/HeaderMenu";
 import Logo from "../Logo/Logo";
 import "./Header.scss";
 
