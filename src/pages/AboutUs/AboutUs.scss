@@ -1,0 +1,73 @@
+@import '../../styles/variables';
+
+.section-aboutUs {
+    height: 725px;
+    background-color: $secondaryBgColor;
+    display: flex;
+    padding-inline: 120px;
+    align-items: center;
+    gap: 209px;
+
+    .img-box {
+        position: relative;
+
+        .aboutus-img {
+            width: 378px;
+            height: 565px;
+        }
+
+        .play-btn {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    }
+
+    .about-description-box {
+        display: flex;
+        flex-direction: column;
+        gap: 56px;
+
+        .aboutus-heading {
+            width: 546px;
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+        }
+
+        .aboutus-description {
+            color: $text-secondary;
+            width: 483px;
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 150%;
+        }
+
+        .extra-info {
+            display: flex;
+            gap: 45px;
+            justify-content: flex-start;
+
+            .details {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+
+                .number {
+                    font-family: 'archivo', sans-serif;
+                    font-size: 40px;
+                    font-weight: 700;
+                    line-height: 120%;
+                }
+
+                .label {
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 150%;
+                    color: $text-secondary;
+                }
+            }
+        }
+    }
+}

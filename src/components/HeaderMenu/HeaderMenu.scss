@@ -1,0 +1,22 @@
+@import '../../styles/variables';
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 32px;
+
+    li {
+        a {
+            font-size: 16px;
+            font-weight: 400;
+            line-height: 150%;
+        }
+
+        &:first-child {
+            a {
+                color: $primaryColor ;
+                font-weight: 700;
+            }
+        }
+    }
+}

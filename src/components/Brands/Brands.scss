@@ -1,0 +1,14 @@
+.brands {
+    display: flex;
+    gap: 48px;
+    overflow: hidden;
+    justify-content: center;
+    padding: 75px;
+
+
+    .brand:last-child {
+        .logo {
+            width: 128px;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+@import '../../styles/variables';
+
+.section-hero {
+    background-color: $secondaryBgColor;
+    padding: 0 120px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    .hero-discription-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        position: relative;
+
+        .hero-description {
+            width: 455px;
+            color: $text-secondary;
+            font-size: 17px;
+            font-weight: 500;
+            line-height: 160%;
+            margin: 32px 0 40px;
+        }
+
+        .arrow {
+            position: absolute;
+            bottom: 185px;
+            left: 237px;
+        }
+    }
+
+    .hero-img-box {
+        display: flex;
+        justify-content: flex-end;
+        margin-bottom: 114px;
+        position: relative;
+
+        width: 483px;
+        height: 684px;
+
+        .hero-img {
+            border-bottom-left-radius: 100%;
+            border-bottom-right-radius: 100%;
+        }
+    }
+}
