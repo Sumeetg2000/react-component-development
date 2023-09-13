@@ -13,6 +13,11 @@ const theme = {
       groupOverlapping: -24,
       borderRadius: 101,
     },
+    Input: {
+      colorBgContainer: "transparent",
+      colorText: "#fff",
+      colorTextPlaceholder: "#fff",
+    },
   },
 };
 
