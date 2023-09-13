@@ -1,0 +1,63 @@
+@import '../../styles/variables';
+
+.section-pricing {
+    padding: 118px 0 128px;
+    background-color: $backgroundSecondary;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 167px;
+
+    .pricing-header {
+        width: 786px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 16px;
+
+        .pricing-subheading {
+            color: $textGray;
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 160%;
+        }
+
+    }
+
+    .pricing-plans {
+        padding: 24px 19px 30px 23px;
+        background-color: $white;
+        height: 692px;
+        width: 881px;
+        border-radius: 26px;
+        display: flex;
+        align-items: center;
+        border: 1px solid var(--Silver, #E9ECF2);
+
+        .popular {
+            position: relative;
+
+            .label {
+                position: absolute;
+                background-color: $primaryColor;
+                border-radius: 60px;
+                border: 8px solid $white;
+                padding: 14px 20px;
+                z-index: 10;
+                top: -28px;
+                left: 90px;
+
+                color: $blackSecondary;
+                text-align: center;
+                font-family: 'Inter', sans-serif;
+                font-size: 14px;
+                font-weight: 500;
+                line-height: 150%;
+                text-transform: uppercase;
+            }
+
+        }
+    }
+}

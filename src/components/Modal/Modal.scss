@@ -1,0 +1,45 @@
+@import '../../styles/variables';
+
+.modal {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-radius: 16px;
+    padding: 32px 24px 24px 32px;
+
+    &.bg-green {
+        background-color: $lightGreen;
+
+        .modal-description {
+            width: 203px;
+        }
+    }
+
+    &.bg-orange {
+        background-color: $lightOrange;
+    }
+
+    &.bg-purple {
+        background-color: $lightPurple;
+        grid-column: 3;
+        grid-row: 1/-1;
+    }
+
+    .modal-description {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 150%;
+        margin-right: 20px;
+    }
+
+    .modal-heading {
+        display: flex;
+        align-items: flex-end;
+        gap: 28px;
+
+        h4 {
+            width: 177px;
+        }
+
+    }
+}

@@ -1,0 +1,72 @@
+@import '../../styles/variables';
+
+
+.section-aboutus {
+    padding: 120px 106px 120px 120px;
+    background: url('../../assets/images/EllipseAbout-1.svg'), url('../../assets/images/EllipseAbout-2.png');
+    background-repeat: no-repeat;
+    background-position: right 107px, right 130px;
+
+    .section-heading {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        align-items: center;
+        column-gap: 260px;
+        margin-bottom: 106px;
+
+        .heading-detail {
+            width: 448px;
+            color: $textGray;
+            font-family: 'Inter', sans-serif;
+            font-size: 16px;
+            font-weight: 500;
+            line-height: 160%;
+        }
+    }
+
+    .modals {
+        display: grid;
+        grid-template-columns: 586px 1fr 1fr;
+        grid-template-rows: 236px 236px;
+        column-gap: 29px;
+        row-gap: 28px;
+
+        .modal--promo {
+            background-image: url('../../assets/images/aboutus-modal-img.png');
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap: 125px;
+            border-radius: 16px;
+            grid-row: 1/-1;
+
+            .modal--heading-container {
+                border-radius: 16px;
+                padding: 48px 48px 57px;
+                background: linear-gradient(180deg, #4e4e4e 0%, rgba(0, 0, 0, 0.00) 100%);
+
+
+                .modal--sub-heading {
+                    color: $primaryColor;
+                    font-family: 'Inter', sans-serif;
+                    font-size: 14px;
+                    font-weight: 500;
+                    line-height: 160%;
+                    text-transform: uppercase;
+                    margin-bottom: 12px;
+                }
+
+                .modal-heading {
+                    width: 376px;
+                    margin-top: 12px;
+                    color: $white;
+                }
+            }
+
+            .modal-btn {
+                padding:0 0 48px 48px;
+            }
+        }
+    }
+}

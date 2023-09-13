@@ -1,0 +1,96 @@
+@import '../../styles/variables';
+
+.section-footer {
+    padding: 100px 120px;
+    background-color: $black;
+    color: $white;
+
+    .logo-col {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        font-family: 'Inter', sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 160%;
+
+        .get-started {
+            display: flex;
+            gap: 31px;
+            align-items: center;
+        }
+    }
+
+    .footer-divider {
+        margin: 30px 0px 40px;
+        border-color: $textGray;
+    }
+
+    .footer-content {
+        display: flex;
+        gap: 100px;
+        margin-bottom: 67px;
+
+
+
+        .newsletter {
+            width: 290px;
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+
+            .newsletter-heading {
+                font-family: 'Inter', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 120%;
+
+            }
+        }
+
+        .nav-row {
+            display: flex;
+            gap: 160px;
+
+            .nav-col {
+                display: flex;
+                flex-direction: column;
+                gap: 20px;
+
+                .footer-heading {
+                    font-family: 'Inter', sans-serif;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 700;
+                    line-height: 120%;
+                }
+
+                .footer-nav {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 16px;
+
+                    .footer-link {
+                        color: $footerLink;
+                        font-family: 'Inter', sans-serif;
+                        font-size: 16px;
+                        font-weight: 400;
+                        line-height: 150%;
+                    }
+                }
+            }
+        }
+    }
+
+    .footer-end {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .terms-policy {
+            display: flex;
+            gap: 55px;
+        }
+    }
+}

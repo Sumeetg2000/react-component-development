@@ -1,0 +1,42 @@
+@import '../../styles/variables';
+
+.overview {
+    padding: 20px;
+    border-radius: 8px;
+    width: 163px;
+    height: 145px;
+    background-color: $white;
+    box-shadow: 20px 40px 80px 0px rgba(45, 51, 81, 0.12);
+
+    .amount {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 120%;
+    }
+
+    .desc {
+        color: $textGrey;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        letter-spacing: 0.1px;
+        margin: 23px 0 8px;
+    }
+
+    .diff {
+        background-color: $bgGreen;
+        border-radius: 4px;
+        color: $textGreen;
+        font-family: Inter;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px;
+        letter-spacing: -0.12px;
+
+        display: inline-flex;
+        padding: 4px;
+        justify-content: center;
+        align-items: center;
+        gap: 4px;
+    }
+}

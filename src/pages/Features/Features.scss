@@ -1,0 +1,119 @@
+@import '../../styles/variables';
+
+.section-features {
+    height: 753px;
+    padding: 0 119px 0 207px;
+    display: flex;
+    align-items: center;
+    gap: 159px;
+
+    .sales-details {
+        display: flex;
+        flex-direction: column;
+        gap: 18px;
+
+        .sales-report {
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            .report-heading {
+                font-family: 'Inter', sans-serif;
+                font-size: 24px;
+                font-weight: 700;
+                line-height: 30px;
+
+            }
+        }
+
+        .sales-comp {
+            padding: 20px;
+            background-color: $darkBlue;
+            border-radius: 8px;
+            display: flex;
+            justify-content: space-between;
+            box-shadow: 20px 40px 80px 0px rgba(45, 51, 81, 0.12);
+
+            .data {
+                .data-heading {
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    color: $textPurple;
+                }
+
+                .amount {
+                    margin: 4px 0 8px;
+                    font-size: 20px;
+                    font-weight: 700;
+                    line-height: 26px;
+                    color: $white;
+                }
+
+                .diff {
+                    font-size: 14px;
+                    font-weight: 600;
+                    line-height: 20px;
+                    color: $textGreen;
+
+                    .diff-desc {
+                        margin-left: 8px;
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 22px;
+                        letter-spacing: -0.5px;
+                        color: $textPurpleSmall;
+                    }
+                }
+            }
+        }
+    }
+
+    .feature-details {
+        display: flex;
+        flex-direction: column;
+        gap: 40px;
+
+        .feature-header {
+            display: flex;
+            flex-direction: column;
+            gap: 24px;
+
+            .detail {
+                width: 447px;
+                font-size: 16px;
+                font-weight: 500;
+                line-height: 160%;
+                color: $textGray;
+            }
+        }
+
+        .features {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+
+            .feature {
+                display: flex;
+                gap: 12px;
+
+                .icon {
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    width: 22px;
+                    height: 22px;
+                    border-radius: 100%;
+                    background-color: $primaryColor;
+                }
+
+                .feature-desc {
+                    font-size: 16px;
+                    font-weight: 500;
+                    line-height: 160%;
+                }
+            }
+        }
+    }
+}

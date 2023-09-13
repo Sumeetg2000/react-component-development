@@ -1,0 +1,12 @@
+@import '../../styles/variables';
+
+.input {
+    width: 100%;
+    height: 50px;
+    background-color: transparent;
+    padding: 0;
+    border: none;
+    border-radius: 0;
+    border-bottom: 1px solid $textGray;
+
+}

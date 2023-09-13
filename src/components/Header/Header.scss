@@ -1,2 +1,12 @@
 .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 24px 120px;
+
+    .header-left {
+        display: flex;
+        align-items: center;
+        gap: 65px;
+    }
 }
